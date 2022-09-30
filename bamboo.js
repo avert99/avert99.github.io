@@ -8468,12 +8468,12 @@ function makeMessage(mes){
 	"https://pystyle.info/apps/mahjong-nanikiru-simulator/",
 	'_blank'
 	);
-/*
+
 	setTimeout(() => {
 		popup.postMessage(my_message,'*');
-	}, 1500);
-*/
-	popup.addEventListener('load',() => {popup.postMessage(my_message,'*');},false);
+	}, 1800);
+
+	//popup.addEventListener('load',() => {popup.postMessage(my_message,'*');},false);
 }
 function createPyCode(){
 	var codeStr="";
